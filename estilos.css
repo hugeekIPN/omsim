@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box; /*  calcular quitando relleno */
+}
+
+form{
+    margin: 10px;
+}
+
+body{
+    background-image: url(imgs/01/fondo.jpg);
+}
+
+input, textarea{
+    background-color: #a39c8b;
+    display: block;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+
+.titulo{
+  font-size: 58px;
+    color: #a19a88;
+    margin: 0px;
+    height: 100%;
+    width: 35%;
+    text-align: center;
+    line-height: 1;
+}
+
+.public{
+    font-size: 35px;
+    display: block;
+    margin: 0px;
+}
+
+.der{
+    position: absolute;
+    top:0;
+    left: 65%;
+    
+    width: 35%;
+    height: 100%;
+    background-color: #b6af9e;
+
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 21px;
+    color: #fff;
+}
+
+.izq{
+    position: absolute;
+    width: 65%;
+    height: 100%;
+
+    margin: 0 auto;
+    
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 25%;
+    top: 3%;
+}
+
+.fb:hover, .tw:hover, .insta:hover, .vimeo:hover, .youtube:hover{
+    cursor: pointer;
+}
